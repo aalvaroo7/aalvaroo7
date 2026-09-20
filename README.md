@@ -2,19 +2,8 @@
 
 ### `aalvaroo7@github ~ $ whoami`
 
-<<<<<<< HEAD
-<img src="./ascii.svg" width="420" alt="ASCII portrait of Álvaro" />
-=======
 <table>
 <tr>
-
-<td valign="top">
-<img
-    src="./foto.png"
-    width="370"
-    alt="portrait"
-/>
-</td>
 
 <td valign="top">
 <img
@@ -48,7 +37,7 @@
 
 
 <h3>
-<code>aalvaroo7@github ~ $ ls ./stack</code>
+<code>aalvaroo7@github ~ $ ls ./stack </code>
 </h3>
 
 
@@ -64,9 +53,8 @@
 
 
 <code>
-Computer Engineering · Software Development · Artificial Intelligence
-</code>
->>>>>>> eba83399c292e8709249a2f8e613501c1997b9a9
+Computer Engineering · Software Development · Artificial Intelligence</code>
+
 
 </div>
 
@@ -80,12 +68,13 @@ Role: Computer Engineering Student
 Stack: Python, Java, SQL
 Interests: AI, Software Development, Cybersecurity
 Location: Spain
-
+```
 aalvaroo7@github ~ $ ls skills/
-python
+```python
 java
 sql
 git
 github
 html
 css
+```
