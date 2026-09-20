@@ -1,0 +1,139 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg"
+     width="490"
+     height="390"
+     viewBox="0 0 490 390">
+
+<style>
+    @keyframes aparecer {
+        from {
+            opacity: 0;
+            transform: translateX(-10px);
+        }
+        to {
+            opacity: 1;
+            transform: translateX(0);
+        }
+    }
+
+    .linea {
+        opacity: 0;
+        animation: aparecer .45s ease forwards;
+    }
+
+    .l1 { animation-delay: .20s; }
+    .l2 { animation-delay: .40s; }
+    .l3 { animation-delay: .60s; }
+    .l4 { animation-delay: .80s; }
+    .l5 { animation-delay: 1.00s; }
+    .l6 { animation-delay: 1.20s; }
+    .l7 { animation-delay: 1.40s; }
+</style>
+
+<defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+        <stop offset="0%" stop-color="#111722"/>
+        <stop offset="100%" stop-color="#0d1117"/>
+    </linearGradient>
+</defs>
+
+<!-- Fondo -->
+<rect
+    x="0.5"
+    y="0.5"
+    width="489"
+    height="389"
+    rx="12"
+    fill="url(#bg)"
+    stroke="#30363d"
+/>
+
+<!-- Barra superior -->
+<line
+    x1="0"
+    y1="32"
+    x2="490"
+    y2="32"
+    stroke="#30363d"
+/>
+
+<!-- Botones terminal -->
+<circle cx="18" cy="16" r="5" fill="#ff5f56"/>
+<circle cx="35" cy="16" r="5" fill="#ffbd2e"/>
+<circle cx="52" cy="16" r="5" fill="#27c93f"/>
+
+<text
+    x="245"
+    y="20"
+    text-anchor="middle"
+    font-family="Consolas, monospace"
+    font-size="11"
+    fill="#7d8590">
+    aalvaroo7@github: ~/about
+</text>
+
+
+<!-- Información -->
+
+<text class="linea l1"
+      x="28" y="80"
+      font-family="Consolas, monospace"
+      font-size="17">
+    <tspan fill="#7d8590">name:</tspan>
+    <tspan fill="#e6edf3"> Álvaro</tspan>
+</text>
+
+
+<text class="linea l2"
+      x="28" y="120"
+      font-family="Consolas, monospace"
+      font-size="17">
+    <tspan fill="#7d8590">role:</tspan>
+    <tspan fill="#39d353"> Computer Engineering Student</tspan>
+</text>
+
+
+<text class="linea l3"
+      x="28" y="160"
+      font-family="Consolas, monospace"
+      font-size="17">
+    <tspan fill="#7d8590">focus:</tspan>
+    <tspan fill="#22d3ee"> Software Development</tspan>
+</text>
+
+
+<text class="linea l4"
+      x="28" y="200"
+      font-family="Consolas, monospace"
+      font-size="17">
+    <tspan fill="#7d8590">interests:</tspan>
+    <tspan fill="#e6edf3"> AI · Cybersecurity</tspan>
+</text>
+
+
+<text class="linea l5"
+      x="28" y="240"
+      font-family="Consolas, monospace"
+      font-size="17">
+    <tspan fill="#7d8590">languages:</tspan>
+    <tspan fill="#f2cc60"> Python · Java · SQL</tspan>
+</text>
+
+
+<text class="linea l6"
+      x="28" y="280"
+      font-family="Consolas, monospace"
+      font-size="17">
+    <tspan fill="#7d8590">tools:</tspan>
+    <tspan fill="#e6edf3"> Git · GitHub · MySQL</tspan>
+</text>
+
+
+<text class="linea l7"
+      x="28" y="335"
+      font-family="Consolas, monospace"
+      font-size="15">
+    <tspan fill="#39d353">●</tspan>
+    <tspan fill="#7d8590"> available for learning &amp; building</tspan>
+</text>
+
+</svg>

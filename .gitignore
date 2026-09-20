@@ -1,0 +1,7 @@
+﻿.venv/
+__pycache__/
+*.pyc
+
+# Fotografías originales usadas para generar el ASCII
+foto.png
+foto-preparada.png
