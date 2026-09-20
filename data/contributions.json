@@ -1,15 +1,6 @@
 {
-<<<<<<< HEAD
-  "username": "...",
-  "total_contributions": 350,
-  "active_days": 120,
-  "current_streak": {},
-  "longest_streak": {},
-  "best_day": {},
-  "days": []
-=======
   "username": "aalvaroo7",
-  "generated_at": "2026-09-20T22:14:10Z",
+  "generated_at": "2026-09-20T22:17:39Z",
   "range": {
     "start": "2025-09-21",
     "end": "2026-09-20"
@@ -1547,5 +1538,4 @@
       "count": 3
     }
   ]
->>>>>>> eba83399c292e8709249a2f8e613501c1997b9a9
 }
