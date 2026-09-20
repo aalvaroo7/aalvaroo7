@@ -9,9 +9,9 @@
 
 <td valign="top">
 <img
-    src="./ascii.svg"
+    src="./foto.png"
     width="370"
-    alt="ASCII portrait"
+    alt="portrait"
 />
 </td>
 
