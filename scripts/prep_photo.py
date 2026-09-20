@@ -49,14 +49,16 @@ def main():
     img = ImageOps.grayscale(img)
 
     # Mejorar contraste
-    img = ImageOps.autocontrast(img, cutoff=1)
+    img = ImageOps.autocontrast(img, cutoff=0.5)
     contrast = ImageEnhance.Contrast(img)
-    img = contrast.enhance(1.35)
+    img = contrast.enhance(1)
 
     # Suavizar un poco brillo para que la cara se marque mejor
     brightness = ImageEnhance.Brightness(img)
     img = brightness.enhance(1.12)
 
+    sharpness = ImageEnhance.Sharpness(img)
+    img = sharpness.enhance(1.25)
     # Guardar
     img.save(OUTPUT_IMAGE)
     print(f"Imagen preparada guardada como: {OUTPUT_IMAGE}")
