@@ -1,13 +1,13 @@
 {
   "username": "aalvaroo7",
-  "generated_at": "2026-11-21T14:37:53Z",
+  "generated_at": "2026-11-22T14:32:36Z",
   "range": {
-    "start": "2025-11-16",
-    "end": "2026-11-21"
+    "start": "2025-11-23",
+    "end": "2026-11-22"
   },
-  "total_contributions": 69,
-  "active_days": 9,
-  "avg_per_active_day": 7.7,
+  "total_contributions": 48,
+  "active_days": 7,
+  "avg_per_active_day": 6.9,
   "current_streak": {
     "length": 0,
     "start": null,
@@ -19,13 +19,13 @@
     "end": "2025-12-15"
   },
   "best_day": {
-    "date": "2025-11-16",
-    "count": 18
+    "date": "2025-12-14",
+    "count": 16
   },
   "monthly": [
     {
       "month": "2025-11",
-      "total": 21
+      "total": 0
     },
     {
       "month": "2025-12",
@@ -77,34 +77,6 @@
     }
   ],
   "days": [
-    {
-      "date": "2025-11-16",
-      "count": 18
-    },
-    {
-      "date": "2025-11-17",
-      "count": 0
-    },
-    {
-      "date": "2025-11-18",
-      "count": 0
-    },
-    {
-      "date": "2025-11-19",
-      "count": 3
-    },
-    {
-      "date": "2025-11-20",
-      "count": 0
-    },
-    {
-      "date": "2025-11-21",
-      "count": 0
-    },
-    {
-      "date": "2025-11-22",
-      "count": 0
-    },
     {
       "date": "2025-11-23",
       "count": 0
@@ -1559,6 +1531,10 @@
     },
     {
       "date": "2026-11-21",
+      "count": 0
+    },
+    {
+      "date": "2026-11-22",
       "count": 0
     }
   ]
